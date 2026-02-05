@@ -7,3 +7,6 @@ e assim encontrar bons papeis para fazer
 
 
 PRECISO DIVULGAR ESTE SITE
+
+
+CRIEI ELE TODO em html e css preciso atualizalo
