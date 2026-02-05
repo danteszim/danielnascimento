@@ -10,3 +10,5 @@ PRECISO DIVULGAR ESTE SITE
 
 
 CRIEI ELE TODO em html e css preciso atualizalo
+
+vou fazer ele em formato de 
