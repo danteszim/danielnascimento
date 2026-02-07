@@ -1,0 +1,185 @@
+@media (min-width: 768px) {
+ .menu-toggle {
+    display: none;
+  }
+
+  nav {
+    width: calc(100% - 2rem); /* garante respiro SEMPRE */
+
+    max-width: 1440px; /* limita o crescimento */
+    margin: 0 auto; /* centraliza */
+
+
+    padding: 1rem 2rem;
+    justify-content: center;
+
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .menu {
+    position: static;
+    opacity: 1;
+    transform: none;
+    pointer-events: all;
+
+    flex-direction: row;
+    gap: 1rem;
+
+    background: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  nav strong {
+    position: absolute;
+    left:  2rem;
+
+  }
+
+  section {
+    padding: 4rem 2rem;
+  }
+
+  #home,
+  #contato {
+    align-items: center;
+    text-align: center;
+  }
+
+  #home {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+.description-container {
+    margin-bottom: 1.5rem;
+}
+
+  .home-content {
+    max-width: 40%;
+    text-align: left;
+  }
+
+  .home-media {
+    max-width: 50%;
+  }
+
+/* ajuste de video para pc */
+.lightbox-content {
+    max-width: 420px;   /* largura manda */
+    max-height: none;  /* altura livre */
+  }
+
+  .lightbox-content img,
+  .lightbox-content video {
+    width: 100%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+
+
+  
+/* ajuste  seção 2 horizontal */
+.tabs-categorias {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .subtabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .subtabs {
+  display: none;
+  }
+
+  .categoria.active .subtabs {
+    display: flex;
+  }
+  .categoria.active .subtabs {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .categorias-conteudo {
+    margin-top: 2rem;
+  }
+
+  .obra {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .obra-info {
+    flex: 1;
+    text-align: left;
+  }
+
+  .obra-carousel {
+    flex: 1;
+    max-width: 480px;
+  }
+
+  .carousel-item {
+    height: 280px;
+  }
+  .conteudo {
+    margin-top: 4rem;
+  }
+  
+  .book-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+}
+
+
+
+
+@media (min-width: 1440px) {
+  .home-name {
+
+  font-size: clamp(2.5rem, 10vw, 6.5rem);
+  }
+
+  .home-info {
+
+  font-size: 1.1rem;
+  }
+.home-bio {
+  font-size: 1.288rem;
+  max-width: 70ch;
+  opacity: 0.9;
+  margin-bottom:30px;
+
+
+
+  background: rgba(0, 0, 0, 0.1); /* obrigatório */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+
+
+}
