@@ -5,3 +5,8 @@ testado
 aprovado
 ficou mt bom 
 vou fazer ele em react agora
+
+
+
+
+cara n aguento mais
