@@ -8,5 +8,3 @@ vou fazer ele em react agora
 
 
 
-
-cara n aguento mais
